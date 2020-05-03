@@ -70,3 +70,8 @@ Pods/
 
 #xCode temporary files
 *~.nib
+
+# Below ignore high res folders containing textures or images (Store in DropBox)
+
+Cubemaps/
+/[Aa]ssets/Cubemaps.meta
