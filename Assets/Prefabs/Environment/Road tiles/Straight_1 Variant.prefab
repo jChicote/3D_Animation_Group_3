@@ -91,6 +91,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8052994932809076077, guid: 334d8ef5c0ff9cb4ba7d539f4ad501d7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 334d8ef5c0ff9cb4ba7d539f4ad501d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -165,6 +170,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Straight_1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 334d8ef5c0ff9cb4ba7d539f4ad501d7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 856365191234717131, guid: 334d8ef5c0ff9cb4ba7d539f4ad501d7,
         type: 3}

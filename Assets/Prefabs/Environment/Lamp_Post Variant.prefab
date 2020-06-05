@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8796950077909408858
 Transform:
@@ -82,7 +82,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -107,7 +107,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8238167897607066734
 Transform:
@@ -251,10 +251,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: db95f710ced984d78932763ec4517824, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 70783aa9c4f884fbcb0ef4f543946454,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cedf1334fd66e4da08e7a960476e4dba, type: 2}
     - target: {fileID: -927199367670048503, guid: 70783aa9c4f884fbcb0ef4f543946454,
         type: 3}
       propertyPath: m_Name
       value: Lamp_Post Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 70783aa9c4f884fbcb0ef4f543946454,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70783aa9c4f884fbcb0ef4f543946454, type: 3}
