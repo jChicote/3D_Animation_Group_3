@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89c7ccd4342ef4aaab1e6d95c66b515c
+guid: 7843f6e11f70d469a8d6aa597700cf04
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -33,7 +33,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -372,13 +401,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Hero_w_bones@Idle-2(Clone)
+    - name: mainCharacter(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Armature.002
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -670,27 +699,27 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Plane.001
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0, y: 7.595715, z: 0.0000024772758}
       rotation: {x: 0.00000018477635, y: 0, z: -0, w: 1}
       scale: {x: 100, y: 100, z: 100}
     - name: Cube.002
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0.000000021457671, y: 0.9999998, z: 0.00000027259318}
       rotation: {x: -0.7071067, y: -7.902523e-10, z: -0.0000000061376344, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
     - name: Sphere.001
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: 0.002595713, y: 6.998316, z: 0.0026141503}
       rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
     - name: Cube.004
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: 0.00000003561378, y: 7, z: 0.000002275317}
       rotation: {x: -0.7071067, y: 0.000000011774765, z: 0.000000027395448, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
     - name: Cube.005
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0, y: 7.156593, z: 0.0000023389762}
       rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
