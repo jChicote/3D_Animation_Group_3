@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a2a9f5e6311ec407182d7854e113d930
+guid: 9eb78dedd2af04b88bb3985d4fc9cc93
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
@@ -372,13 +372,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Hero_w_bones@Idle-2(Clone)
+    - name: mainCharacter(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Armature.002
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -670,27 +670,27 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Plane.001
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0, y: 7.595715, z: 0.0000024772758}
       rotation: {x: 0.00000018477635, y: 0, z: -0, w: 1}
       scale: {x: 100, y: 100, z: 100}
     - name: Cube.002
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0.000000021457671, y: 0.9999998, z: 0.00000027259318}
       rotation: {x: -0.7071067, y: -7.902523e-10, z: -0.0000000061376344, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
     - name: Sphere.001
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: 0.002595713, y: 6.998316, z: 0.0026141503}
       rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
     - name: Cube.004
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: 0.00000003561378, y: 7, z: 0.000002275317}
       rotation: {x: -0.7071067, y: 0.000000011774765, z: 0.000000027395448, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
     - name: Cube.005
-      parentName: Hero_w_bones@Idle-2(Clone)
+      parentName: mainCharacter(Clone)
       position: {x: -0, y: 7.156593, z: 0.0000023389762}
       rotation: {x: -0.7071067, y: 0, z: -0, w: 0.7071068}
       scale: {x: 100, y: 100, z: 100}
