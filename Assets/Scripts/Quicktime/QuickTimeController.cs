@@ -13,6 +13,7 @@ public class QuickTimeController : MonoBehaviour
         public KeyCode key;
         public PlayableDirector failureTimeLine;
         public bool completed;
+        public float duration;
     }
 
     public PlayableDirector mainTimeline;
@@ -38,12 +39,13 @@ public class QuickTimeController : MonoBehaviour
     private IEnumerator performEvent() {
         keyView.text = ActiveEvent.key.ToString();
         keyView.enabled = true;
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(ActiveEvent.duration);
         keyView.enabled = false;
         if (!ActiveEvent.completed) {
             ActiveEvent.failureTimeLine.time = mainTimeline.time;
             mainTimeline.Stop();
             ActiveEvent.failureTimeLine.Play();
+            mainTimeline = ActiveEvent.failureTimeLine;
         }
     }
 
