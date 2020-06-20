@@ -29,7 +29,7 @@ public class IKControls : MonoBehaviour
         rightHandWeight = anim.GetFloat("rightHandWeight");
         leftFootWeight = anim.GetFloat("leftFootWeight");
         rightFootWeight = anim.GetFloat("rightFootWeight");
-        headWeight = anim.GetFloat("handWeight");
+        headWeight = anim.GetFloat("headWeight");
 
         anim.SetIKPositionWeight(AvatarIKGoal.LeftHand, leftHandWeight);
         anim.SetIKPositionWeight(AvatarIKGoal.RightHand, rightHandWeight);
