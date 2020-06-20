@@ -121,7 +121,7 @@ public class QuickTimeController : MonoBehaviour
                 ActiveEvent.arrow.enabled = false;
             }
         }
-        if (ring.transform.localScale.x > 0) {
+        if (ring.enabled == true) {
             ring.transform.localScale = ring.transform.localScale - 1 / ActiveEvent.duration * new Vector3(0.02f, 0.02f, 0.02f);
         }
         
